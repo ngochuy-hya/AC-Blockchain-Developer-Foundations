@@ -11,11 +11,15 @@ Viết một smart contract tên `Profile`:
 - Biến `age` (kiểu `uint`) khai báo `public`
 - Hàm `setProfile(string _name, uint _age)` cập nhật name và age
 
+![alt text](image.png)
+
 Sau đó:
 1. Deploy contract trên Remix IDE
+![alt text](image-1.png)
 2. Gọi `setProfile("Alice", 21)`
+![alt text](image-2.png)
 3. Gọi hàm `name()` và `age()` để kiểm tra kết quả
-
+![alt text](image-3.png)
 ## 🛠 Triển khai
 - Mở https://remix.ethereum.org
 - Tạo file `Profile.sol`, dán code vào

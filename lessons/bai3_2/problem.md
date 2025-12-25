@@ -15,6 +15,12 @@ Viết một smart contract tên `VotingEligibility`:
   - Chỉ cho phép người deploy gọi được (sử dụng require với `msg.sender`).
   - Cập nhật lại `minAge`.
 
+![alt text](image.png)
 ## 💻 Cách chạy
 - Dán vào Remix IDE: https://remix.ethereum.org
 - Deploy, test `checkEligibility()` và `updateMinAge()`
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
