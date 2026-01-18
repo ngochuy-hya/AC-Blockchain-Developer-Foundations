@@ -36,3 +36,11 @@ npx hardhat deploy --network sepolia --tags deploy
 ```
 
 Sau khi deploy, chạy file test.ts để kiểm tra balance của địa chỉ deployer.
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)

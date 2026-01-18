@@ -33,3 +33,9 @@
 npx hardhat deploy --network sepolia --tags deploy
 ```
 Sau khi deploy, chạy file test.ts để mint một NFT và trả về địa chỉ sở hữu.
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
