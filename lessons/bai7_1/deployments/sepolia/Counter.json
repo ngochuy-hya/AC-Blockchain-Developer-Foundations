@@ -1,0 +1,89 @@
+{
+  "address": "0x8843B69C1348D470c1655C74E1a8d75e6Ed94201",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "count",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x2da5785c867600656f50ecf3a77d32d447a7ddb124939875c8cbe713a4fac4b0",
+  "receipt": {
+    "to": null,
+    "from": "0x7Fd5E1B5954B00027cA0C2FC152449411089BF1d",
+    "contractAddress": "0x8843B69C1348D470c1655C74E1a8d75e6Ed94201",
+    "transactionIndex": 10,
+    "gasUsed": "107419",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xea20ede677605e1fe4c111ec2614c3787c7d5447a3f1c41cda9ecf4769b8fc99",
+    "transactionHash": "0x2da5785c867600656f50ecf3a77d32d447a7ddb124939875c8cbe713a4fac4b0",
+    "logs": [],
+    "blockNumber": 10053427,
+    "cumulativeGasUsed": "590292",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "9051000ee30609a4dffe72be1d2d0a3b",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.28+commit.7893614a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"count\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Counter.sol\":\"Counter\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":1000},\"remappings\":[],\"viaIR\":true},\"sources\":{\"contracts/Counter.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.28;\\r\\n\\r\\ncontract Counter {\\r\\n    uint public count;\\r\\n\\r\\n    function increment() public {\\r\\n        count += 1;\\r\\n    }\\r\\n\\r\\n    function getCount() public view returns (uint) {\\r\\n        return count;\\r\\n    }\\r\\n}\\r\\n\",\"keccak256\":\"0x40f1cc9142613e4b30a859170503cecf1e599bcf482ba5d763eeef8680d756d1\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x6080806040523460145760fc908161001a8239f35b600080fdfe6080806040526004361015601257600080fd5b60003560e01c90816306661abd1460ad57508063a87d942c1460915763d09de08a14603c57600080fd5b34608c576000366003190112608c5760005460018101809111605d57600055005b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600080fd5b34608c576000366003190112608c576020600054604051908152f35b34608c576000366003190112608c576020906000548152f3fea2646970667358221220aaa4a30a1e62ab83f1555fb7aa3612b5996f6de54e57e47329165008156b949364736f6c634300081c0033",
+  "deployedBytecode": "0x6080806040526004361015601257600080fd5b60003560e01c90816306661abd1460ad57508063a87d942c1460915763d09de08a14603c57600080fd5b34608c576000366003190112608c5760005460018101809111605d57600055005b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600080fd5b34608c576000366003190112608c576020600054604051908152f35b34608c576000366003190112608c576020906000548152f3fea2646970667358221220aaa4a30a1e62ab83f1555fb7aa3612b5996f6de54e57e47329165008156b949364736f6c634300081c0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/Counter.sol:Counter",
+        "label": "count",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
